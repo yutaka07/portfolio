@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>portfolio</title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but portfolio doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <form  name="ask-question" method="POST"  class="c-form c-form__m" netlify data-netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="ask-question" />
+        <input name="name" class="input input__l" type="text" placeholder="お名前" />
+        <input name="email" class="input input__l" type="email" placeholder="email" />
+        <textarea
+          name="message"
+          class="input input__l input__textarea mb-xxl"
+          placeholder="お問い合わせ内容"
+        ></textarea>
+        <input type="submit" class="c-btn c-btn-corp c-btn-l" value="送信">
+      </form>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
