@@ -20,7 +20,7 @@
         </li>
         <li class="c-menu__item" @click="toggleClass">
       <router-link class="c-menu__link" @click="toggleClass" to="/Portfolio" active-class="link-active" exact
-        >PORTFOLIO</router-link
+        >OUTPUT</router-link
       >
         </li>
         <li class="c-menu__item" @click="toggleClass">

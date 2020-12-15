@@ -29,6 +29,7 @@ export default {
 .c-hero__title {
     margin-top: 100px;
     font-size: 70px;
+    color: #d3d3d3;
     text-shadow: 0 0 20px rgba(227, 123, 137, 0.4), 0 0 50px rgba(0, 0, 0, 0.8);
     
     }
